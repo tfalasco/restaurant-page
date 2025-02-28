@@ -1,4 +1,4 @@
-import "./menu-styles.css";
+import "./styles/menu-styles.css";
 
 export { loadMenuPage };
 

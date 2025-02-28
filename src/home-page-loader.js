@@ -1,4 +1,4 @@
-import "./home-styles.css"
+import "./styles/home-styles.css"
 import totsImage from "./images/tots.jpg";
 
 export { loadHomePage };

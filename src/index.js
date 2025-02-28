@@ -1,4 +1,4 @@
-import "./main-styles.css";
+import "./styles/main-styles.css";
 import { loadHomePage } from "./home-page-loader";
 import { loadMenuPage } from "./menu-page-loader";
 import { loadAboutPage } from "./about-page-loader";
