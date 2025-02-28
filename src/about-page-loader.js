@@ -1,11 +1,11 @@
 export { loadAboutPage };
 
-
-
 // Load the about page
 function loadAboutPage() {
     // Create a div to hold the contents of this tab
     const contentDiv = document.createElement("div");
+    contentDiv.setAttribute("id", "about-contents");
+
     
     // Create the header and append it to the contentDiv
     const header = document.createElement("h1");

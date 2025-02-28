@@ -5,6 +5,7 @@ export { loadMenuPage };
 function loadMenuPage() {
         // Create a div to hold the contents of this tab
         const contentDiv = document.createElement("div");
+        contentDiv.setAttribute("id", "menu-contents");
         
         // Create the header and append it to the contentDiv
         const header = document.createElement("h1");

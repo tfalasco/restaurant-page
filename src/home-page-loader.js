@@ -7,6 +7,7 @@ export { loadHomePage };
 function loadHomePage() {
     // Create a div to hold the contents of this tab
     const contentDiv = document.createElement("div");
+    contentDiv.setAttribute("id", "home-contents");
     
     // Create the header and append it to the contentDiv
     const header = document.createElement("h1");
@@ -19,14 +20,17 @@ function loadHomePage() {
     contentDiv.appendChild(subHeader);
     
     // Create the image and append it to the contentDiv
+    const imageContainer = document.createElement("div");
     const image = document.createElement("img");
-    const attribution = document.createElement("p");
+    const attribution = document.createElement("div");
     image.setAttribute("id", "tots-img");
     image.src = totsImage;
-    image.setAttribute("atl", "A plate of fine-dining quality tater tots.")
+    image.setAttribute("alt", "A plate of fine-dining quality tater tots.");
     attribution.innerText = "Image by KamranAydinov on Freepik";
-    contentDiv.appendChild(image);
-    contentDiv.appendChild(attribution);
+    attribution.setAttribute("id", "attribution");
+    imageContainer.appendChild(image);
+    imageContainer.appendChild(attribution);
+    contentDiv.appendChild(imageContainer);
 
     // return the contentDiv
     return contentDiv;

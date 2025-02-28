@@ -1,5 +1,7 @@
 .menuItem {
-    border: 3px dotted darkviolet;
+    width: 200px;
+    border: 8px dotted violet;
+    background-color: darkviolet;
     padding: 8px;
-    margin: 4px;
+    margin-bottom: 12px;
 }
