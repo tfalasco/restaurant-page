@@ -1,5 +1,5 @@
 import "./styles/home-styles.css"
-import totsImage from "./images/tots.jpg";
+import totsImage from "./images/tots-small.jpg";
 
 export { loadHomePage };
 
